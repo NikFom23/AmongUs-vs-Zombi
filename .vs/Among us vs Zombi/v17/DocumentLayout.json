@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\among us vs zombi\\assets\\abongus vs zombi\\scripts\\hero\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\hero\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\assets\\abongus vs zombi\\scripts\\components\\heals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\components\\heals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\among us vs zombi\\assets\\abongus vs zombi\\scripts\\enemy\\enemyplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\enemy\\enemyplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\assets\\abongus vs zombi\\scripts\\hero\\heroui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\hero\\heroui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\assets\\abongus vs zombi\\scripts\\hero\\heromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AFD0-807E-A9D3-5291-A86B26B94881}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\hero\\heromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Heals.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:11:38.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeroUI.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:11:38.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeroMove.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:11:38.355Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:29:58.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\enemy\\EnemyPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\enemy\\EnemyPlayer.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\Among us vs Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\enemy\\EnemyPlayer.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\enemy\\EnemyPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T09:56:38.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
