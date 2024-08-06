@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 113
+  controlID: 76
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 30
+  controlID: 20
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 31
+  controlID: 21
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 32
+  controlID: 22
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -406,7 +406,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2730
+  m_LastSelectedObjectID: 34542
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -497,10 +497,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: cb9ea4527c306294fafcdf1918547052,
+  m_AnimatorController: {fileID: 9100000, guid: 004906428eaa71e4ebcb54e649d37fae,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -8614025774353979676, guid: cb9ea4527c306294fafcdf1918547052,
+  - m_Target: {fileID: 6305490134169849991, guid: 004906428eaa71e4ebcb54e649d37fae,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AbongUs vs Zombi/Scripts/Model
+    - Assets/AbongUs vs Zombi/Prefab/Lvl
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -602,16 +602,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/AbongUs vs Zombi/Scripts/Model
+  - Assets/AbongUs vs Zombi/Prefab/Lvl
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Nik\Documents\My Games\Unity\Among us vs Zombi
+  m_LastProjectPath: C:\Users\Nik\Documents\My Games\Unity\AmongUs-vs-Zombi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 4c840000
-    m_LastClickedID: 33868
-    m_ExpandedIDs: 0000000000840000028400000484000006840000088400000a8400000c8400000e84000010840000128400001484000016840000188400001a8400001c8400001e84000020840000228400002484000026840000288400002a8400002c8400002e8400004284000000ca9a3b
+    scrollPos: {x: 0, y: 41}
+    m_SelectedIDs: 68840000
+    m_LastClickedID: 33896
+    m_ExpandedIDs: 00000000fa830000fc830000fe83000000840000028400000484000006840000088400000a8400000c8400000e84000010840000128400001484000016840000188400001a8400001c8400001e84000020840000228400002484000026840000288400003c84000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,7 +639,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000840000028400000484000006840000088400000a8400000c8400000e84000010840000128400001484000016840000188400001a8400001c8400001e84000020840000228400002484000026840000288400002a8400002c8400002e840000
+    m_ExpandedIDs: 00000000fa830000fc830000fe83000000840000028400000484000006840000088400000a8400000c8400000e84000010840000128400001484000016840000188400001a8400001c8400001e8400002084000022840000248400002684000028840000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000048a00004c8800006e8c0000509800004e730000fe81000000b60000f6d70000f0800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -781,9 +781,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: fefaffff
+      m_SelectedIDs: b4e1ffff
+      m_LastClickedID: -7756
+      m_ExpandedIDs: fefafffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1118,7 +1118,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1190,9 +1190,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -17.609976, y: 3.6109664, z: 4.0574183}
+    m_Target: {x: -42.812885, y: -0.67249286, z: 5.967419}
     speed: 2
-    m_Value: {x: -17.609976, y: 3.6109664, z: 4.0574183}
+    m_Value: {x: -42.812885, y: -0.67249286, z: 5.967419}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1242,9 +1242,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 18.044983
+    m_Target: 29.789036
     speed: 2
-    m_Value: 18.044983
+    m_Value: 29.789036
   m_Ortho:
     m_Target: 1
     speed: 2

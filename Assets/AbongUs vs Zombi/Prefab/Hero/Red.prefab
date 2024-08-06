@@ -1328,6 +1328,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a0b5661ba098f934e9d4c894a14c7189, type: 3}
   - {fileID: 21300000, guid: 61ebfb354f4e449498f43cf0920590d0, type: 3}
   - {fileID: 21300000, guid: df334aa3efb56a549af940952bf301a5, type: 3}
+  _gameSession: {fileID: 0}
 --- !u!1 &3688922273218546520
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,6 +3267,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  _gameSession: {fileID: 7361349324591981026, guid: 375aa8abb9405364ca5b669729f6a026,
+    type: 3}
   _healthDelta: 0
 --- !u!114 &7932489239815648619
 MonoBehaviour:

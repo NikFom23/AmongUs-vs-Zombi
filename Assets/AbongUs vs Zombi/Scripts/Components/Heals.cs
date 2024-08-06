@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using PixelCrew.Model;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class Heals : MonoBehaviour
@@ -7,6 +8,7 @@ public class Heals : MonoBehaviour
     [SerializeField] private UnityEvent _onDamage;
     [SerializeField] private UnityEvent _onHeal;
     [SerializeField] private UnityEvent _onDie;
+    [SerializeField] private GameSession _gameSession;
 
     [HideInInspector] public int _healthDelta;
 
@@ -16,9 +18,9 @@ public class Heals : MonoBehaviour
 
     private void Start()
     {
-        if (gameObject.CompareTag("Player"))
+        if (gameObject.CompareTag("Player") && _gameSession != null)
         {
-            _heals = _playerData._health;
+            _heals = _gameSession.Data._health; 
         }
         
     }

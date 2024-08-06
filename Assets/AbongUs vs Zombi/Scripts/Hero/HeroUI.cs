@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using PixelCrew.Model;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class HeroUI : MonoBehaviour
@@ -14,6 +15,8 @@ public class HeroUI : MonoBehaviour
     private void Start()
     {
         _imageHeal = GetComponent<Image>();
+
+       
     } 
 
     public void HealImageUI()
