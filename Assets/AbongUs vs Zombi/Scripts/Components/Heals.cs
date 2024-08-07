@@ -18,6 +18,12 @@ public class Heals : MonoBehaviour
 
     private void Start()
     {
+
+        if (_gameSession == null)
+        {
+            _gameSession = FindObjectOfType<GameSession>();
+        }
+
         if (gameObject.CompareTag("Player") && _gameSession != null)
         {
             _heals = _gameSession.Data._health; 
