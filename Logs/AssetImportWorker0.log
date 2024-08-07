@@ -15,7 +15,7 @@ C:/Users/Андрей/Documents/Unity/AmongUs-vs-Zombi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58937
+59133
 Successfully changed project path to: C:/Users/Андрей/Documents/Unity/AmongUs-vs-Zombi
 C:/Users/Андрей/Documents/Unity/AmongUs-vs-Zombi
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Андрей/Documents/Unity/AmongUs-vs-Zombi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19548]  Target information:
+Player connection [10220]  Target information:
 
-Player connection [19548]  * "[IP] 10.20.6.247 [Port] 0 [Flags] 2 [Guid] 3180801092 [EditorId] 3180801092 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BI14AOK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10220]  * "[IP] 10.20.6.247 [Port] 0 [Flags] 2 [Guid] 3391722601 [EditorId] 3391722601 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BI14AOK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19548] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10220] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10220] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 7.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006330 seconds.
-- Loaded All Assemblies, in  0.295 seconds
+Registered in 0.006186 seconds.
+- Loaded All Assemblies, in  0.279 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.237 seconds
-Domain Reload Profiling: 532ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 500ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (88ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (238ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (222ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (186ms)
+		SetupLoadedEditorAssemblies (175ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (129ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,55 +117,55 @@ Domain Reload Profiling: 532ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.470 seconds
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.543 seconds
-Domain Reload Profiling: 1011ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.547 seconds
+Domain Reload Profiling: 999ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (229ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (221ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (91ms)
-				TypeCache.ScanAssembly (79ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (77ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (543ms)
+	FinalizeReload (547ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (411ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (311ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (310ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 67 unused Assets / (105.7 KB). Loaded Objects now: 3123.
 Memory consumption went from 117.3 MB to 117.2 MB.
-Total: 3.816700 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.186000 ms MarkObjects: 3.238400 ms  DeleteObjects: 0.111000 ms)
+Total: 3.548000 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.157000 ms MarkObjects: 3.096600 ms  DeleteObjects: 0.102000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -182,55 +182,102 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 192400.527833 seconds.
-  path: Assets/AbongUs vs Zombi/Scripts/Components/TargetRotate.cs
-  artifactKey: Guid(b1e25d92f9e371b47a7b091da13d68c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AbongUs vs Zombi/Scripts/Components/TargetRotate.cs using Guid(b1e25d92f9e371b47a7b091da13d68c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1466a19349d9989d316fae8b708f6511') in 0.003065 seconds
+  Time since last request: 193199.512363 seconds.
+  path: Assets/AbongUs vs Zombi/Prefab/Lvl/NewLevel.prefab
+  artifactKey: Guid(74428cef090a7c740b0744e3e0b67e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbongUs vs Zombi/Prefab/Lvl/NewLevel.prefab using Guid(74428cef090a7c740b0744e3e0b67e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a70f550a95fbd54ceb907bf4a38baf3') in 0.025034 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AbongUs vs Zombi/Scripts/Components/Destroy.cs
-  artifactKey: Guid(45a90ec8d57e00643bec19c38ebc9ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AbongUs vs Zombi/Scripts/Components/Destroy.cs using Guid(45a90ec8d57e00643bec19c38ebc9ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9c869f2aa30cd188045344cd4a5a8352') in 0.000399 seconds
+  Time since last request: 16.461354 seconds.
+  path: Assets/AbongUs vs Zombi/Prefab/Lvl/SpawnHero.prefab
+  artifactKey: Guid(291d0b1b9f1b77a4cae6ca9508f080c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbongUs vs Zombi/Prefab/Lvl/SpawnHero.prefab using Guid(291d0b1b9f1b77a4cae6ca9508f080c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13ec72ac909b889f3105a6535ab4fdb9') in 0.057045 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 198
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AbongUs vs Zombi/Scripts/Components/Heals.cs
-  artifactKey: Guid(e9812b2259eb69d42a2a834877bf6003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AbongUs vs Zombi/Scripts/Components/Heals.cs using Guid(e9812b2259eb69d42a2a834877bf6003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e9f62170b2fef0efbe72940bc3daf99a') in 0.000492 seconds
+  Time since last request: 13.326979 seconds.
+  path: Assets/AbongUs vs Zombi/Prefab/Lvl/SpawnZombi.prefab
+  artifactKey: Guid(158266a64639bc74dab69e9317565001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbongUs vs Zombi/Prefab/Lvl/SpawnZombi.prefab using Guid(158266a64639bc74dab69e9317565001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71e832be4786bf9d579fd836a1aa6007') in 0.006819 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
-  Time since last request: 2.447571 seconds.
-  path: Assets/AbongUs vs Zombi/Scripts/Components/SpriteAnimation.cs
-  artifactKey: Guid(258c2e35c8a5ea544bfddfcb065cc790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AbongUs vs Zombi/Scripts/Components/SpriteAnimation.cs using Guid(258c2e35c8a5ea544bfddfcb065cc790) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '43aa30a8bc7953a30e619f15300613e0') in 0.000484 seconds
+  Time since last request: 42.731200 seconds.
+  path: Assets/AbongUs vs Zombi/Prefab/Lvl/TriggerSpawn.prefab
+  artifactKey: Guid(e107b7bfbdfcffb4baf88321f139921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbongUs vs Zombi/Prefab/Lvl/TriggerSpawn.prefab using Guid(e107b7bfbdfcffb4baf88321f139921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55b88f0120eceef438d230926f2b877b') in 0.006577 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 66
 ========================================================================
-Received Import Request.
-  Time since last request: 0.862739 seconds.
-  path: Assets/AbongUs vs Zombi/Scripts/Components/EnterCollisionComponent.cs
-  artifactKey: Guid(e12203817e57a0146bc426d1921cbcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AbongUs vs Zombi/Scripts/Components/EnterCollisionComponent.cs using Guid(e12203817e57a0146bc426d1921cbcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7100e51d082ed8d7fb033e2e3e09f442') in 0.000455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.804964 seconds.
-  path: Assets/AbongUs vs Zombi/Scenes/Level6.unity
-  artifactKey: Guid(352b7b3e36ce32143859f49b169daf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AbongUs vs Zombi/Scenes/Level6.unity using Guid(352b7b3e36ce32143859f49b169daf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5eabea292e4a6c5ece29782fb514350') in 0.000537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.527 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1380ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (855ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2629 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (105.0 KB). Loaded Objects now: 3128.
+Memory consumption went from 111.7 MB to 111.5 MB.
+Total: 4.841400 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.156500 ms MarkObjects: 4.368700 ms  DeleteObjects: 0.093200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
