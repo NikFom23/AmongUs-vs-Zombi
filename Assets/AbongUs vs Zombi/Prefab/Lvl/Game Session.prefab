@@ -45,6 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _health: 5
+    _health: 4
     _coin: 0
     _speed: 0

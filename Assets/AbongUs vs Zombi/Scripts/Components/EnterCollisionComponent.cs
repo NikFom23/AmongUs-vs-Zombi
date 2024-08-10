@@ -16,15 +16,23 @@ public class EnterCollisionComponent : MonoBehaviour
         {
             _tag = collision.gameObject.tag;
             _damage = -1;
+            Debug.Log("-1");
         }
 
-        if (gameObject.name != "Zombi(Clone)" && collision.gameObject.name == "Zombi(Clone)")
+        if (gameObject.name != "Zombi(Clone)" && collision.gameObject.name == "Zombi(Clone)" )
+        {
+            _tag = collision.gameObject.tag;
+            _damage = -1;
+            Debug.Log("Zombie hit detected, setting damage to -1");
+        }
+
+        if (gameObject.name != "Zombi" && collision.gameObject.name == "Zombi")
         {
             _tag = collision.gameObject.tag;
             _damage = -1;
         }
 
-        if(_tag != null)
+        if (_tag != null)
         {
             if (collision.gameObject.CompareTag(_tag))
             {

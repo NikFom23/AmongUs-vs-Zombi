@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class Heals : MonoBehaviour
 {
-    [SerializeField] public float _heals;
+    
     [SerializeField] private UnityEvent _onDamage;
     [SerializeField] private UnityEvent _onHeal;
     [SerializeField] private UnityEvent _onDie;
@@ -14,21 +14,32 @@ public class Heals : MonoBehaviour
 
     private PlayerData _playerData;
     private Enemy _ebemyData;
+    public float _heals;
 
 
     private void Start()
     {
+        
+
         if (gameObject.CompareTag("Player") && _gameSession != null)
         {
-            _heals = _gameSession.Data._health; 
+            _heals = _gameSession.Data._health;
+            
         }
         
     }
 
     public void ModifyHeal()
     {
-        
         _heals += _healthDelta;
+
+        if (_gameSession != null)
+        {
+            _gameSession.Data._health = _heals;
+            
+        }
+
+        
 
         if (_healthDelta < 0)
         {

@@ -383,6 +383,7 @@
 "Assets/AbongUs vs Zombi/Scripts/Hero/HeroMove.cs"
 "Assets/AbongUs vs Zombi/Scripts/Hero/HeroUI.cs"
 "Assets/AbongUs vs Zombi/Scripts/Hero/PlayerData.cs"
+"Assets/AbongUs vs Zombi/Scripts/Model/GameInitializer.cs"
 "Assets/AbongUs vs Zombi/Scripts/Model/GameSession.cs"
 "Assets/AbongUs vs Zombi/Scripts/UI/Coins.cs"
 "Assets/AbongUs vs Zombi/Scripts/UI/CoinsSpaun.cs"
