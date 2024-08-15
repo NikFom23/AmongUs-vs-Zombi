@@ -1,39 +1,45 @@
 using UnityEngine;
 
-namespace PixelCrew.Model
+
+public class GameSession : MonoBehaviour
 {
-    public class GameSession : MonoBehaviour
+    [SerializeField] private PlayerData _data;
+    [SerializeField] private WeaponDataAK _weaponData;
+
+    public PlayerData Data => _data;
+    public WeaponDataAK WeaponData => _weaponData;
+
+    private void Awake()
     {
-        [SerializeField] private PlayerData _data;
-
-        public PlayerData Data=> _data;
-
-        private void Awake()
+        if (IsSessionExit())
         {
-            if (IsSessionExit())
-            {
-                DestroyImmediate(gameObject);
-            }
-            else
-            {
-                DontDestroyOnLoad(this);
-            }
+            DestroyImmediate(gameObject);
         }
-
-        private bool IsSessionExit()
+        else
         {
-            var sessions = FindObjectsOfType<GameSession>();
-            foreach (var gameSession in sessions)
-            {
-                if (gameSession != this)
-                {
-                    return true;
-                }
-            }
-
-            return false;
+            DontDestroyOnLoad(this);
         }
 
     }
 
+    private bool IsSessionExit()
+    {
+        var sessions = FindObjectsOfType<GameSession>();
+        foreach (var gameSession in sessions)
+        {
+            if (gameSession != this)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
 }
+
+
+
+
+
+

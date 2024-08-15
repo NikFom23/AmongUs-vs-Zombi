@@ -381,6 +381,8 @@
 "Assets/AbongUs vs Zombi/Scripts/Guns/Bullet.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/Gun.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/Weapon.cs"
+"Assets/AbongUs vs Zombi/Scripts/Guns/WeaponControl.cs"
+"Assets/AbongUs vs Zombi/Scripts/Guns/WeaponManadger.cs"
 "Assets/AbongUs vs Zombi/Scripts/Hero/HeroMove.cs"
 "Assets/AbongUs vs Zombi/Scripts/Hero/HeroUI.cs"
 "Assets/AbongUs vs Zombi/Scripts/Hero/PlayerData.cs"

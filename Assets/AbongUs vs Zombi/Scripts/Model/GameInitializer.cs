@@ -1,4 +1,4 @@
-using PixelCrew.Model;
+
 using UnityEngine;
 
 public class GameInitializer : MonoBehaviour

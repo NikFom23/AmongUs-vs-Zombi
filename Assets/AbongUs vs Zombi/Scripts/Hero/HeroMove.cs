@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace Hero {
 
     public class HeroMove : MonoBehaviour
     {
         [SerializeField] private float _speed;
+        [SerializeField] private GameSession _gameSession;
         [SerializeField] private Rigidbody2D _gunPosition;
         [SerializeField] private UnityEvent _actionCoins;
         [SerializeField] private UnityEvent _actionMenu;
+        
 
         private Vector2 _movement;
         private Animator _animator;
@@ -25,7 +28,7 @@ namespace Hero {
 
         private void Start()
         {
-            
+            StartLevelChec();
         }
 
         private void Update()
@@ -81,7 +84,25 @@ namespace Hero {
                 _actionCoins?.Invoke();
             }
         }
-        
+
+
+        private void StartLevelChec() 
+        {
+            Scene currentScene = SceneManager.GetActiveScene();
+            string sceneName = currentScene.name;
+
+
+
+            if (sceneName == "Level0.5")
+            {
+                _gameSession.Data._health = 4;
+                _gameSession.Data._coin = 0;
+                
+            }
+        }
+
+
+
     }
 
 }

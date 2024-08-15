@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
-using PixelCrew.Model;
+
 
 public class CoinsUI : MonoBehaviour
 {

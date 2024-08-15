@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\amongus-vs-zombi\\assets\\abongus vs zombi\\scripts\\guns\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\guns\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\guns\\weaponmanadger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\guns\\weaponmanadger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\amongus-vs-zombi\\assets\\abongus vs zombi\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\components\\entercollisioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\components\\entercollisioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\components\\heals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\components\\heals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\amongus-vs-zombi\\assets\\abongus vs zombi\\scripts\\guns\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\guns\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\hero\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\hero\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\ui\\coinsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\ui\\coinsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\amongus-vs-zombi\\assets\\abongus vs zombi\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\hero\\heroui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\hero\\heroui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|c:\\users\\nik\\documents\\my games\\unity\\amongus-vs-zombi\\assets\\abongus vs zombi\\scripts\\hero\\heromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\hero\\heromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\guns\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\guns\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\assets\\abongus vs zombi\\scripts\\guns\\weaponcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C3C34C-75DB-DC35-4DEC-5C00D332B0CB}|Assembly-CSharp.csproj|solutionrelative:assets\\abongus vs zombi\\scripts\\guns\\weaponcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +38,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
-              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
-              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "DocumentIndex": 4,
+              "Title": "HeroMove.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T23:09:05.616Z",
+              "WhenOpened": "2024-08-15T03:48:51.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Gun.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Gun.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Gun.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA0wBcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:16:33.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeaponManadger.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponManadger.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponManadger.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponManadger.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponManadger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:20:46.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeaponControl.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponControl.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponControl.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponControl.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\WeaponControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:18:16.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CoinsUI.cs",
-              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\UI\\CoinsUI.cs",
-              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\UI\\CoinsUI.cs",
-              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\UI\\CoinsUI.cs",
-              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\UI\\CoinsUI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
+              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
+              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Guns\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T07:45:44.276Z"
-            },
+              "WhenOpened": "2024-08-12T12:42:36.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnterCollisionComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Components\\EnterCollisionComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Components\\EnterCollisionComponent.cs",
-              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Components\\EnterCollisionComponent.cs",
-              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Components\\EnterCollisionComponent.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:32:03.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Heals.cs",
-              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
-              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
-              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
-              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Components\\Heals.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:05:29.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HeroUI.cs",
-              "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
-              "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
-              "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
-              "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\HeroUI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T08:54:19.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "PlayerData.cs",
               "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
               "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
               "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
               "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Hero\\PlayerData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T08:49:27.315Z"
+              "WhenOpened": "2024-08-06T08:49:27.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Model\\GameSession.cs",
               "RelativeDocumentMoniker": "Assets\\AbongUs vs Zombi\\Scripts\\Model\\GameSession.cs",
               "ToolTip": "C:\\Users\\Nik\\Documents\\My Games\\Unity\\AmongUs-vs-Zombi\\Assets\\AbongUs vs Zombi\\Scripts\\Model\\GameSession.cs",
               "RelativeToolTip": "Assets\\AbongUs vs Zombi\\Scripts\\Model\\GameSession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T07:33:17.303Z",
+              "WhenOpened": "2024-08-15T03:59:25.685Z",
               "EditorCaption": ""
             }
           ]
