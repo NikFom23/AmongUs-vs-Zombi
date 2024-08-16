@@ -3,7 +3,7 @@ guid: 482a922a53b125649b67bbe332a7f743
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -70,11 +72,12 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1072,54 +1078,53 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Elements-01_0: 7862708656804507943
+      Elements-01_1: -7077656831972545199
+      Elements-01_10: -3001266949543971865
+      Elements-01_11: -349155418550241392
+      Elements-01_12: 5410272143271344123
+      Elements-01_13: -7003093589641147346
+      Elements-01_14: 1090899942683256098
+      Elements-01_15: -4761542323607769419
+      Elements-01_16: -5106866949863921449
+      Elements-01_17: 1829458108149793002
+      Elements-01_18: 3948227945390372830
+      Elements-01_19: -6773212638812973406
+      Elements-01_2: 1466453622626696968
+      Elements-01_20: -846582944042020963
+      Elements-01_21: 5869917570690454702
+      Elements-01_22: -6155860425732055318
+      Elements-01_23: 5308651171101591854
+      Elements-01_24: -933915814709912645
+      Elements-01_25: -7926037683502584730
       Elements-01_26: -2878250762353539144
       Elements-01_27: 364968059703313574
-      Elements-01_31: 3011207705518297719
-      Elements-01_2: 1466453622626696968
-      Elements-01_23: 5308651171101591854
-      Elements-01_7: 161013024466004260
-      Elements-01_69: -2230155327565112691
-      Elements-01_70: -7360619629735046944
-      Elements-01_29: -2037964531959390428
-      Elements-01_24: -933915814709912645
-      Elements-01_30: -2410861242469088682
-      Elements-01_67: -6528870311717010962
       Elements-01_28: 8893438617137770691
-      Elements-01_18: 3948227945390372830
-      Elements-01_15: -4761542323607769419
-      Elements-01_8: 5919128535588597863
-      Elements-01_33: -7854487935993841725
-      Elements-01_0: 7862708656804507943
-      Elements-01_22: -6155860425732055318
-      Elements-01_5: 8936483598899115678
-      Elements-01_17: 1829458108149793002
-      Elements-01_34: 4439691379327147019
-      Elements-01_66: 6872137081086465669
-      Elements-01_64: -3034363917936751234
-      Elements-01_16: -5106866949863921449
-      Elements-01_71: 1952239034597022808
-      Elements-01_20: -846582944042020963
-      Elements-01_63: 8839317290538597797
-      Elements-01_21: 5869917570690454702
-      Elements-01_19: -6773212638812973406
+      Elements-01_29: -2037964531959390428
       Elements-01_3: -818064456307225072
-      Elements-01_14: 1090899942683256098
+      Elements-01_30: -2410861242469088682
+      Elements-01_31: 3011207705518297719
       Elements-01_32: 5848205605246110486
-      Elements-01_65: 4659150668289722946
-      Elements-01_1: -7077656831972545199
-      Elements-01_4: -5709820047861949522
-      Elements-01_6: -464195753018081965
-      Elements-01_9: -8425431596350816780
-      Elements-01_68: 4697723385895176447
-      Elements-01_12: 5410272143271344123
+      Elements-01_33: -7854487935993841725
+      Elements-01_34: 4439691379327147019
       Elements-01_35: 5950153280958370872
-      Elements-01_10: -3001266949543971865
-      Elements-01_25: -7926037683502584730
-      Elements-01_11: -349155418550241392
-      Elements-01_13: -7003093589641147346
-  spritePackingTag: 
+      Elements-01_4: -5709820047861949522
+      Elements-01_5: 8936483598899115678
+      Elements-01_6: -464195753018081965
+      Elements-01_63: 8839317290538597797
+      Elements-01_64: -3034363917936751234
+      Elements-01_65: 4659150668289722946
+      Elements-01_66: 6872137081086465669
+      Elements-01_67: -6528870311717010962
+      Elements-01_68: 4697723385895176447
+      Elements-01_69: -2230155327565112691
+      Elements-01_7: 161013024466004260
+      Elements-01_70: -7360619629735046944
+      Elements-01_71: 1952239034597022808
+      Elements-01_8: 5919128535588597863
+      Elements-01_9: -8425431596350816780
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
