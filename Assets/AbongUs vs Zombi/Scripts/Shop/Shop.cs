@@ -22,7 +22,34 @@ public class Shop : Weapon
         
     }
 
-    public void BuyGun()
+    public void BuySmallGun()
+    {
+        if (_coin >= _costGun)
+        {
+            _coin =- _costGun;
+            _gameSession.Data._coin = _coin;
+        }
+    }
+    
+    public void BuyBigWing()
+    {
+        if (_coin >= _costGun)
+        {
+            _coin =- _costGun;
+            _gameSession.Data._coin = _coin;
+        }
+    }
+    
+    public void BuyCalibri()
+    {
+        if (_coin >= _costGun)
+        {
+            _coin =- _costGun;
+            _gameSession.Data._coin = _coin;
+        }
+    }
+    
+    public void BuyFonk()
     {
         if (_coin >= _costGun)
         {
