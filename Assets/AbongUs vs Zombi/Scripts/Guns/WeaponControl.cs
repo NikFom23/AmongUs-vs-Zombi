@@ -11,10 +11,11 @@ namespace Guns {
         [SerializeField] private Camera _camera;
         [SerializeField] private float _bulletForce;
         [SerializeField] private float _bulletTime;
+        [SerializeField] private SpriteRenderer _sprite;
 
         private Vector2 _mousePosition;
         private Rigidbody2D _rigidBody;
-        private SpriteRenderer _sprite;
+        
         private float _nextShoot;
         private GameObject _playerClone;
         private Transform _player;
@@ -22,8 +23,8 @@ namespace Guns {
 
         private void Awake()
         {
+            
             _rigidBody = GetComponent<Rigidbody2D>();
-            _sprite = GetComponent<SpriteRenderer>();
             _playerClone = GameObject.Find("Red(Clone)");
             _player = _playerClone.transform;
         }

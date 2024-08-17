@@ -20,11 +20,13 @@ public class Gun : WeaponGun
     {
         _nextShoot = 0f;
 
+        Name = _gameSession.WeaponData._name;    
         Damage = _gameSession.WeaponData._damage;
         Cartridges = _gameSession.WeaponData._cartridges;
         Rate = _gameSession.WeaponData._rate;
         Magazine = _gameSession.WeaponData._magazine;
         BulletForce = _gameSession.WeaponData._bulletForce;
+        Cost = _gameSession.WeaponData._cost;
 
     }
 

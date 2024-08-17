@@ -9,6 +9,7 @@ public abstract class Weapon : MonoBehaviour
     [HideInInspector] public int Magazine { get; set; }
     [HideInInspector] public float Rate { get; set; }
     [HideInInspector] public int BulletForce { get; set; }
+    [HideInInspector] public int Cost { get; set; }
 
     public abstract void Use();
 }

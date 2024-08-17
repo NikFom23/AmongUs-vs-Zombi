@@ -13,11 +13,14 @@ public class PlayerData
 [Serializable]
 public class WeaponDataAK
 {
+    public string _name = "Small gun";
     public int _damage = 2;
     public int _cartridges = 60;
     public float _rate = 0.1f;
     public int _magazine = 30;
     public int _bulletForce = 40;
+    public int _cost = 40;
+
 
 }public class WeaponDataColt
 {
