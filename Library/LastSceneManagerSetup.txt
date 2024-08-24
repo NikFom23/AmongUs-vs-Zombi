@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AbongUs vs Zombi/Scenes/MainMenu.unity
+- path: Assets/AbongUs vs Zombi/Scenes/Level0.5.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

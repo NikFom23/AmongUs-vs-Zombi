@@ -13,20 +13,13 @@ public class CoinPlayer : MonoBehaviour
     private void Start()
     {
         _cponPlayer = GetComponent<Text>();
+ 
+    }
+
+    private void Update()
+    {
         _coin = _gameSession.Data._coin;
-        if (_gameSession == null)
-        {
-            Debug.LogError("GameSession is not assigned!");
-            return;
-        }
-
-        if (_cponPlayer == null)
-        {
-            Debug.LogError("TMP_Text component is missing!");
-            return;
-        }
-        _cponPlayer.text = _coin.ToString();
-
+        _cponPlayer .text = _coin.ToString();
         
     }
 }

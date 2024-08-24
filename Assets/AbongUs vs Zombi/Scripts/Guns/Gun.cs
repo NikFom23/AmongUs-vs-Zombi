@@ -26,7 +26,7 @@ public class Gun : WeaponGun
         Rate = _gameSession.WeaponData._rate;
         Magazine = _gameSession.WeaponData._magazine;
         BulletForce = _gameSession.WeaponData._bulletForce;
-        Cost = _gameSession.WeaponData._cost;
+        
 
     }
 
