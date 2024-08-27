@@ -6,6 +6,8 @@ public class WeaponGun : Weapon
     public GameObject _spaunBull;
     public GameSession _gameSession;
 
+    public GunPistol _gunPistol;
+
     [HideInInspector] public float _nextShoot;
 
     public override void Use()
@@ -18,16 +20,20 @@ public class Gun : WeaponGun
 {
     private void Start()
     {
+
+        if (_gunPistol == null)
+        Debug.Log("Приехали");
+
         _nextShoot = 0f;
 
-        Name = _gameSession.WeaponData._name;    
-        Damage = _gameSession.WeaponData._damage;
-        Cartridges = _gameSession.WeaponData._cartridges;
-        Rate = _gameSession.WeaponData._rate;
-        Magazine = _gameSession.WeaponData._magazine;
-        BulletForce = _gameSession.WeaponData._bulletForce;
-        
+        Name = _gunPistol.Name;    
+        Damage = _gunPistol.Damage;
+        Cartridges = _gunPistol.Cartridges;
+        Rate = _gunPistol.Rate;
+        Magazine = _gunPistol.Magazine;
+        BulletForce = _gunPistol.BulletForce;
 
+        Debug.Log(Name);
     }
 
 

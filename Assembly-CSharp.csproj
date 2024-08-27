@@ -117,6 +117,7 @@
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Shop\CoinPlayer.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\UI\Coins.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Hero\HeroUI.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\GunPistol.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\Bullet.cs" />
     <Compile Include="Assets\SpriteAnimationImageUI.cs" />

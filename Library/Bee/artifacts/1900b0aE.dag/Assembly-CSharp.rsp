@@ -380,6 +380,7 @@
 "Assets/AbongUs vs Zombi/Scripts/enemy/Zombi.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/Bullet.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/Gun.cs"
+"Assets/AbongUs vs Zombi/Scripts/Guns/GunPistol.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/Weapon.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/WeaponControl.cs"
 "Assets/AbongUs vs Zombi/Scripts/Guns/WeaponManadger.cs"

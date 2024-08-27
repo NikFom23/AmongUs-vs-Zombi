@@ -14,84 +14,121 @@ public class PlayerData
 
 }
 
-[Serializable]
-public class WeponPistol
+// Базовый класс характеристик оружия
+public class WeponCharacteristics 
 {
-    public string _name = "Pistol";
-    public int _damage = 1;
-    public int _cartridges = 60;
-    public float _rate = 0.03f;
-    public int _magazine = 10;
-    public int _bulletForce = 40;
+    public string _name;
+    public int _damage;
+    public int _cartridges;
+    public float _rate;
+    public int _magazine;
+    public int _bulletForce;
+}
+
+// Класс для пистолета
+[Serializable]
+public class WeponPistol : WeponCharacteristics
+{
     public int _cost = 0;
     public int _purchased = 0;
 
+    public WeponPistol()
+    {
+        _name = "Pistol";
+        _damage = 1;
+        _cartridges = 60;
+        _rate = 0.03f;
+        _magazine = 10;
+        _bulletForce = 40;
+    }
 }
 
+// Класс для AK
 [Serializable]
-public class WeaponDataAK
+public class WeaponDataAK : WeponCharacteristics
 {
-    public string _name = "Small gun";
-    public int _damage = 2;
-    public int _cartridges = 60;
-    public float _rate = 0.1f;
-    public int _magazine = 30;
-    public int _bulletForce = 40;
     public int _cost = 40;
     public int _purchased = 0;
 
+    public WeaponDataAK()
+    {
+        _name = "Small gun";
+        _damage = 2;
+        _cartridges = 60;
+        _rate = 0.1f;
+        _magazine = 30;
+        _bulletForce = 40;
+    }
 }
 
+// Класс для BigWing
 [Serializable]
-public class WeaponBigWing
+public class WeaponBigWing : WeponCharacteristics
 {
-    public string _name = "BigWing";
-    public int _damage = 2;
-    public int _cartridges = 60;
-    public float _rate = 0.1f;
-    public int _magazine = 30;
-    public int _bulletForce = 40;
     public int _cost = 60;
     public int _purchased = 0;
 
+    public WeaponBigWing()
+    {
+        _name = "BigWing";
+        _damage = 2;
+        _cartridges = 60;
+        _rate = 0.1f;
+        _magazine = 30;
+        _bulletForce = 40;
+    }
 }
 
+// Класс для Calibri
 [Serializable]
-public class WeaponDataCalibri
+public class WeaponDataCalibri : WeponCharacteristics
 {
-    public string _name = "Calibri";
-    public int _damage = 2;
-    public int _cartridges = 60;
-    public float _rate = 0.1f;
-    public int _magazine = 30;
-    public int _bulletForce = 40;
     public int _cost = 40;
     public int _purchased = 0;
 
+    public WeaponDataCalibri()
+    {
+        _name = "Calibri";
+        _damage = 2;
+        _cartridges = 60;
+        _rate = 0.1f;
+        _magazine = 30;
+        _bulletForce = 40;
+    }
 }
 
+// Класс для Fonk
 [Serializable]
-public class WeaponDataFonk
+public class WeaponDataFonk : WeponCharacteristics
 {
-    public string _name = "Fonk";
-    public int _damage = 2;
-    public int _cartridges = 60;
-    public float _rate = 0.1f;
-    public int _magazine = 30;
-    public int _bulletForce = 40;
     public int _cost = 40;
     public int _purchased = 0;
+
+    public WeaponDataFonk()
+    {
+        _name = "Fonk";
+        _damage = 2;
+        _cartridges = 60;
+        _rate = 0.1f;
+        _magazine = 30;
+        _bulletForce = 40;
+    }
 }
 
+// Класс для SWH
 [Serializable]
-public class WeaponDataSWH
+public class WeaponDataSWH : WeponCharacteristics
 {
-    public string _name = "SVH";
-    public int _damage = 2;
-    public int _cartridges = 60;
-    public float _rate = 0.1f;
-    public int _magazine = 30;
-    public int _bulletForce = 40;
     public int _cost = 40;
     public int _purchased = 0;
+
+    public WeaponDataSWH()
+    {
+        _name = "SVH";
+        _damage = 2;
+        _cartridges = 60;
+        _rate = 0.1f;
+        _magazine = 30;
+        _bulletForce = 40;
+    }
 }

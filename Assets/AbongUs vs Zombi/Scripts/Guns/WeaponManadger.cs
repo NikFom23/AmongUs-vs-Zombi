@@ -12,7 +12,7 @@ public class WeaponManadger : MonoBehaviour
 
     private void Start()
     {
-        _gunInstance = GetComponent<Gun>();     
+           
     }
 
 
@@ -40,6 +40,7 @@ public class WeaponManadger : MonoBehaviour
             if (gun.name == name)
             {
                 gun.SetActive(true);
+                _gunInstance = gun.GetComponent<Gun>();
             }
             else
             {
