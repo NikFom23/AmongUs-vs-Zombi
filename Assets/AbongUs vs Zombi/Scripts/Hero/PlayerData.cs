@@ -10,7 +10,7 @@ public class PlayerData
     public int _speed;
     public string _nameGun;
     public GameObject[] _buttonActive;
-
+    public GameObject _gunObj;
 
 }
 
@@ -37,7 +37,7 @@ public class WeponPistol : WeponCharacteristics
         _name = "Pistol";
         _damage = 1;
         _cartridges = 60;
-        _rate = 0.03f;
+        _rate = 0.5f;
         _magazine = 10;
         _bulletForce = 40;
     }
@@ -47,7 +47,7 @@ public class WeponPistol : WeponCharacteristics
 [Serializable]
 public class WeaponDataAK : WeponCharacteristics
 {
-    public int _cost = 40;
+    public int _cost = 20;
     public int _purchased = 0;
 
     public WeaponDataAK()
@@ -55,7 +55,7 @@ public class WeaponDataAK : WeponCharacteristics
         _name = "Small gun";
         _damage = 2;
         _cartridges = 60;
-        _rate = 0.1f;
+        _rate = 0.3f;
         _magazine = 30;
         _bulletForce = 40;
     }
@@ -65,17 +65,17 @@ public class WeaponDataAK : WeponCharacteristics
 [Serializable]
 public class WeaponBigWing : WeponCharacteristics
 {
-    public int _cost = 60;
+    public int _cost = 200;
     public int _purchased = 0;
 
     public WeaponBigWing()
     {
         _name = "BigWing";
-        _damage = 2;
+        _damage = 5;
         _cartridges = 60;
-        _rate = 0.1f;
+        _rate = 0.5f;
         _magazine = 30;
-        _bulletForce = 40;
+        _bulletForce = 80;
     }
 }
 
@@ -83,17 +83,17 @@ public class WeaponBigWing : WeponCharacteristics
 [Serializable]
 public class WeaponDataCalibri : WeponCharacteristics
 {
-    public int _cost = 40;
+    public int _cost = 300;
     public int _purchased = 0;
 
     public WeaponDataCalibri()
     {
         _name = "Calibri";
-        _damage = 2;
+        _damage = 1;
         _cartridges = 60;
-        _rate = 0.1f;
+        _rate = 0.2f;
         _magazine = 30;
-        _bulletForce = 40;
+        _bulletForce = 60;
     }
 }
 
@@ -101,17 +101,17 @@ public class WeaponDataCalibri : WeponCharacteristics
 [Serializable]
 public class WeaponDataFonk : WeponCharacteristics
 {
-    public int _cost = 40;
+    public int _cost = 400;
     public int _purchased = 0;
 
     public WeaponDataFonk()
     {
         _name = "Fonk";
         _damage = 2;
-        _cartridges = 60;
+        _cartridges = 80;
         _rate = 0.1f;
         _magazine = 30;
-        _bulletForce = 40;
+        _bulletForce = 80;
     }
 }
 
@@ -119,7 +119,7 @@ public class WeaponDataFonk : WeponCharacteristics
 [Serializable]
 public class WeaponDataSWH : WeponCharacteristics
 {
-    public int _cost = 40;
+    public int _cost = 500;
     public int _purchased = 0;
 
     public WeaponDataSWH()
@@ -127,8 +127,8 @@ public class WeaponDataSWH : WeponCharacteristics
         _name = "SVH";
         _damage = 2;
         _cartridges = 60;
-        _rate = 0.1f;
+        _rate = 0.05f;
         _magazine = 30;
-        _bulletForce = 40;
+        _bulletForce = 90;
     }
 }

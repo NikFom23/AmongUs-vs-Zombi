@@ -19,6 +19,7 @@ namespace Guns {
         private float _nextShoot;
         private GameObject _playerClone;
         private Transform _player;
+        public GameSession _gameSession;
 
 
         private void Awake()
@@ -60,6 +61,8 @@ namespace Guns {
 
         private void SpriteReflect()
         {
+            _sprite = _gameSession.Data._gunObj.GetComponent<SpriteRenderer>();
+
             if (_rigidBody.rotation > 90f || _rigidBody.rotation < -90f)
             {
                 _sprite.flipY = true;

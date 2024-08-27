@@ -21,9 +21,6 @@ public class Gun : WeaponGun
     private void Start()
     {
 
-        if (_gunPistol == null)
-        Debug.Log("Приехали");
-
         _nextShoot = 0f;
 
         Name = _gunPistol.Name;    
@@ -33,7 +30,6 @@ public class Gun : WeaponGun
         Magazine = _gunPistol.Magazine;
         BulletForce = _gunPistol.BulletForce;
 
-        Debug.Log(Name);
     }
 
 
@@ -43,7 +39,7 @@ public class Gun : WeaponGun
         if (_nextShoot <= 0f)
         {
  
-            Debug.Log(Cartridges);
+            ;
 
             if (Cartridges > 0)
             {

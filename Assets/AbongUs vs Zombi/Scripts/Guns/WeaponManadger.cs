@@ -41,6 +41,7 @@ public class WeaponManadger : MonoBehaviour
             {
                 gun.SetActive(true);
                 _gunInstance = gun.GetComponent<Gun>();
+                _gameSession.Data._gunObj = gun;
             }
             else
             {
