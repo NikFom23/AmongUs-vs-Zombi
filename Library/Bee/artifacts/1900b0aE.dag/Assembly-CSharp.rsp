@@ -401,6 +401,7 @@
 "Assets/AbongUs vs Zombi/Scripts/UI/CoinsUI.cs"
 "Assets/AbongUs vs Zombi/Scripts/UI/GameMenu.cs"
 "Assets/AbongUs vs Zombi/Scripts/UI/MainMenu.cs"
+"Assets/AbongUs vs Zombi/Scripts/UI/QuitGame.cs"
 "Assets/AbongUs vs Zombi/Scripts/UI/SpawnHero.cs"
 "Assets/LevelUp.cs"
 "Assets/MenuGuns.cs"
