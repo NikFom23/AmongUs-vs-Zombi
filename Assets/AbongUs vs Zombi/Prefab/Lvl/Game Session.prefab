@@ -51,6 +51,11 @@ MonoBehaviour:
     _nameGun: BigWing
     _buttonActive: []
     _gunObj: {fileID: 0}
+  _enemyData:
+    _enemy:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   _weaponData:
     _name: Small gun
     _damage: 2

@@ -11,7 +11,14 @@ public class PlayerData
     public string _nameGun;
     public GameObject[] _buttonActive;
     public GameObject _gunObj;
+    
 
+}
+
+[Serializable]
+public class EnemyData
+{
+    public GameObject[] _enemy;
 }
 
 // Базовый класс характеристик оружия
@@ -53,7 +60,7 @@ public class WeaponDataAK : WeponCharacteristics
     public WeaponDataAK()
     {
         _name = "Small gun";
-        _damage = 2;
+        _damage = -2;
         _cartridges = 60;
         _rate = 0.3f;
         _magazine = 30;
@@ -71,7 +78,7 @@ public class WeaponBigWing : WeponCharacteristics
     public WeaponBigWing()
     {
         _name = "BigWing";
-        _damage = 5;
+        _damage = -5;
         _cartridges = 60;
         _rate = 0.5f;
         _magazine = 30;
@@ -89,7 +96,7 @@ public class WeaponDataCalibri : WeponCharacteristics
     public WeaponDataCalibri()
     {
         _name = "Calibri";
-        _damage = 1;
+        _damage = -1;
         _cartridges = 60;
         _rate = 0.2f;
         _magazine = 30;
@@ -107,7 +114,7 @@ public class WeaponDataFonk : WeponCharacteristics
     public WeaponDataFonk()
     {
         _name = "Fonk";
-        _damage = 2;
+        _damage = -2;
         _cartridges = 80;
         _rate = 0.1f;
         _magazine = 30;
@@ -125,7 +132,7 @@ public class WeaponDataSWH : WeponCharacteristics
     public WeaponDataSWH()
     {
         _name = "SVH";
-        _damage = 2;
+        _damage = -2;
         _cartridges = 60;
         _rate = 0.05f;
         _magazine = 30;

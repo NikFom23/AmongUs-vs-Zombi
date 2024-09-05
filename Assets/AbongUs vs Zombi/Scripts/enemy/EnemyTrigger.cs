@@ -32,14 +32,7 @@ namespace enemy
             }
         }
 
-        private void Update()
-        {
-            if (_atack == true)
-            {
-              
-            }
-
-        }
+       
 
         private void FixedUpdate()
         {

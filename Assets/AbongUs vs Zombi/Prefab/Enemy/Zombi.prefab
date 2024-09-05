@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 3129908441065786705}
   - component: {fileID: 3129908441065786704}
   - component: {fileID: 3129908441065786707}
+  - component: {fileID: 3179618518959753764}
   - component: {fileID: 3129908441065786541}
-  - component: {fileID: 3129908441065786706}
   - component: {fileID: 3129908441065786540}
   m_Layer: 0
   m_Name: Zombi
@@ -240,6 +240,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3179618518959753764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129908441065786715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9096a8110b1cc2e4588dbcbbcd1564c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameSession: {fileID: 7361349324591981026, guid: 375aa8abb9405364ca5b669729f6a026,
+    type: 3}
 --- !u!114 &3129908441065786541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,33 +338,6 @@ MonoBehaviour:
   _gameSession: {fileID: 0}
   _healthDelta: 0
   _heals: 2
---- !u!114 &3129908441065786706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3129908441065786715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e12203817e57a0146bc426d1921cbcd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _action:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3129908441065786541}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ModifyHeal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &3129908441065786540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,7 +577,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7755771014783910275}
   - component: {fileID: 3959490121356653612}
-  - component: {fileID: 8261425286565761436}
   m_Layer: 0
   m_Name: AttackTriggerZombi
   m_TagString: Untagged
@@ -648,18 +634,3 @@ CircleCollider2D:
   m_Offset: {x: -1.0357199, y: 0}
   serializedVersion: 2
   m_Radius: 1.9282045
---- !u!114 &8261425286565761436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6976688839766938557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e12203817e57a0146bc426d1921cbcd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _action:
-    m_PersistentCalls:
-      m_Calls: []

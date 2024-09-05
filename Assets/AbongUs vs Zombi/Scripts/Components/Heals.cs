@@ -13,7 +13,6 @@ public class Heals : MonoBehaviour
     [HideInInspector] public int _healthDelta;
 
     private PlayerData _playerData;
-    private Enemy _ebemyData;
     public float _heals;
 
 
@@ -31,6 +30,8 @@ public class Heals : MonoBehaviour
 
     public void ModifyHeal()
     {
+        
+
         _heals += _healthDelta;
 
         if (_gameSession != null)
@@ -39,6 +40,10 @@ public class Heals : MonoBehaviour
             
         }
 
+        if (_heals > 4)
+        {
+            _heals = 4;
+        }
         
 
         if (_healthDelta < 0)

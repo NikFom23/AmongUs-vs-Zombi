@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7681042899828168412}
   m_Layer: 8
   m_Name: BigWing
-  m_TagString: BulletAK-47
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

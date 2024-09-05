@@ -4,14 +4,16 @@ using UnityEngine;
 public class GameSession : MonoBehaviour
 {
     [SerializeField] private PlayerData _data;
+    [SerializeField] private EnemyData _enemyData;
     [SerializeField] private WeaponDataAK _weaponData;
     [SerializeField] private WeponPistol _weponPistol;
     [SerializeField] private WeaponBigWing _weaponBigWing;
     [SerializeField] private WeaponDataCalibri _weaponCalibri;
     [SerializeField] private WeaponDataFonk _weaponFonk;
     [SerializeField] private WeaponDataSWH _weaponSWH;
+    
 
-
+    public EnemyData EnemyData => _enemyData;
     public PlayerData Data => _data;
     public WeaponDataAK WeaponData => _weaponData;
     public WeponPistol WeponPistol => _weponPistol;

@@ -10,7 +10,7 @@ public class GunPistol : Weapon
     {
     }
 
-    public void Awake()
+    public void Start()
     {
         _weaponCharacteristics = new WeponCharacteristics[]
         {
@@ -28,9 +28,9 @@ public class GunPistol : Weapon
             
             if (weapon._name == gameObject.name)
             {
-                
 
                 
+
                 Name = weapon._name;
                 Damage = weapon._damage;
                 Cartridges = weapon._cartridges;
