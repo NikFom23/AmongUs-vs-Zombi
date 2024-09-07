@@ -12,8 +12,7 @@ public class Heals : MonoBehaviour
 
     [HideInInspector] public int _healthDelta;
 
-    private PlayerData _playerData;
-    public float _heals;
+    public int _heals;
 
 
     private void Start()
@@ -40,7 +39,7 @@ public class Heals : MonoBehaviour
             
         }
 
-        if (_heals > 4)
+        if (_heals > _gameSession.Data._maxHeals)
         {
             _heals = 4;
         }

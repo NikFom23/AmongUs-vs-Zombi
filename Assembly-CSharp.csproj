@@ -64,11 +64,13 @@
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\UI\GameMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Components\SavingStatistics.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Components\TargetRotate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\enemy\EnemyEnterCollisionComponent.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Components\SpriteAnimationImageUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\UI\СartridgesDataTxt.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\Weapon.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Components\Destroy.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Shop\ShopButtonCartridges.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\UI\СartridgesData.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Shop\Shop Button Manager.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Shop\ChoiceActiveButton.cs" />
@@ -111,6 +114,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\UI\SpawnHero.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Shop\BuyHeal.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Hero\PlayerData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\UI\CoinsUI.cs" />
@@ -124,6 +128,7 @@
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Hero\HeroUI.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\GunPistol.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\AbongUs vs Zombi\Scripts\Shop\ShopButtonHeals.cs" />
     <Compile Include="Assets\AbongUs vs Zombi\Scripts\Guns\Bullet.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />

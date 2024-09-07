@@ -74,7 +74,7 @@ public class HeroEnterCollisionComponent : MonoBehaviour
     {
         if (collider.gameObject.tag == "Heals")
         {
-            Debug.Log(":v");
+           
             gameObject.GetComponent<Heals>()._healthDelta = 2;
             gameObject.GetComponent<Heals>().ModifyHeal();
         }

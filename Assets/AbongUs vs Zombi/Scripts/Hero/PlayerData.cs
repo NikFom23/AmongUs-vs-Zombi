@@ -4,14 +4,14 @@ using UnityEngine;
 [Serializable]
 public class PlayerData 
 {
-
-    public float _health;
+    public int _maxHeals;
+    public int _health;
     public int _coin;
     public int _speed;
     public string _nameGun;
     public GameObject[] _buttonActive;
     public GameObject _gunObj;
-    
+    public int _cartridges;
 
 }
 

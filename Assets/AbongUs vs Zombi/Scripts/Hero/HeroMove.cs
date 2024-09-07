@@ -97,7 +97,10 @@ namespace Hero {
             {
                 _gameSession.Data._health = 4;
                 _gameSession.Data._coin = 0;
-                
+                _gameSession.Data._cartridges = 60;
+                _gameSession.Data._maxHeals = 4;
+
+
             }
         }
 

@@ -295,13 +295,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
+      objectReference: {fileID: 7704022059665594888}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
       objectReference: {fileID: 5656982344212042612}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SaveData
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: NewLvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: NewBehaviourScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: LevelUp, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833939165724577401, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4024874027566359535, guid: 8a15fafbb134589409237658c0165852,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7704022059665594888}
   m_SourcePrefab: {fileID: 100100000, guid: 8a15fafbb134589409237658c0165852, type: 3}
 --- !u!224 &748598755657685417 stripped
 RectTransform:
@@ -309,6 +358,26 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1214048541146986337}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2810830202331747470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4024874027566359535, guid: 8a15fafbb134589409237658c0165852,
+    type: 3}
+  m_PrefabInstance: {fileID: 1214048541146986337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7704022059665594888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2810830202331747470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c69e2aec6b5ed48a840869abaca7bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameSession: {fileID: 7361349324591981026, guid: 375aa8abb9405364ca5b669729f6a026,
+    type: 3}
 --- !u!1 &4209878646276062815 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3077459265752713534, guid: 8a15fafbb134589409237658c0165852,

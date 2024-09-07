@@ -15,4 +15,6 @@ public class CollisionComponent : MonoBehaviour
             GetComponent<Collider2D>().enabled = false;
         }
     }
+
+
 }

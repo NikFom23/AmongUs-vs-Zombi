@@ -29,11 +29,11 @@ public class GunPistol : Weapon
             if (weapon._name == gameObject.name)
             {
 
-                
+               
 
                 Name = weapon._name;
                 Damage = weapon._damage;
-                Cartridges = weapon._cartridges;
+                
                 Rate = weapon._rate;
                 Magazine = weapon._magazine;
                 BulletForce = weapon._bulletForce;
@@ -43,6 +43,5 @@ public class GunPistol : Weapon
             }
         }
     }
-
 
 }

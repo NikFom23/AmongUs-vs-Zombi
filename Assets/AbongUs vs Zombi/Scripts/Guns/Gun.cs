@@ -25,10 +25,12 @@ public class Gun : WeaponGun
 
         Name = _gunPistol.Name;    
         Damage = _gunPistol.Damage;
-        Cartridges = _gunPistol.Cartridges;
+        Cartridges = _gameSession.Data._cartridges;
         Rate = _gunPistol.Rate;
         Magazine = _gunPistol.Magazine;
         BulletForce = _gunPistol.BulletForce;
+
+        _gameSession.Data._cartridges = Cartridges;
 
     }
 
@@ -39,11 +41,12 @@ public class Gun : WeaponGun
         if (_nextShoot <= 0f)
         {
  
-            ;
+            
 
             if (Cartridges > 0)
             {
                 Cartridges -= 1;
+                _gameSession.Data._cartridges = Cartridges;
                 Shoot();
 
                 _nextShoot = Rate;
@@ -62,5 +65,7 @@ public class Gun : WeaponGun
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(_spaunBull.transform.right * BulletForce, ForceMode2D.Impulse);
     }
+
+    
 }
 

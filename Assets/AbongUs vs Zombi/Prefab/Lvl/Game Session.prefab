@@ -45,12 +45,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _health: 3
-    _coin: 2
+    _health: 4
+    _coin: 0
     _speed: 0
     _nameGun: BigWing
     _buttonActive: []
     _gunObj: {fileID: 0}
+    _cartridges: 31
   _enemyData:
     _enemy:
     - {fileID: 0}
@@ -77,9 +78,9 @@ MonoBehaviour:
   _weaponBigWing:
     _name: BigWing
     _damage: 5
-    _cartridges: 60
+    _cartridges: 0
     _rate: 0.1
-    _magazine: 30
+    _magazine: 50
     _bulletForce: 40
     _cost: 60
     _purchased: 1
